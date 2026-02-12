@@ -217,6 +217,17 @@ After scaling:
 
 ***
 
+# 📌 **Normalization vs Standardization — Quick Comparison**
+
+| Feature                       | Normalization             | Standardization         |
+| ----------------------------- | ------------------------- | ----------------------- |
+| Range                         | 0 to 1                    | Mean = 0, Std = 1       |
+| Preserves distribution shape? | ✔ Yes                     | ❌ No                    |
+| Sensitive to outliers         | ❌ Very sensitive          | ✔ More robust           |
+| Best for                      | Neural Nets, KNN, K-Means | Linear models, SVM, PCA |
+
+***
+
 # 🔥 Summary
 
 Feature scaling is essential to:
